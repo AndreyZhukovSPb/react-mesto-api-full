@@ -1,0 +1,6 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  position: relative;
+}

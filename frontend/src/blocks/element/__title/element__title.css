@@ -1,0 +1,21 @@
+.element__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 246px;
+  padding: 22px 15px 22px 21px;
+  background-color: #FFFFFF;
+  border-radius: 0 0 10px 10px;
+  }
+
+@media screen and (max-width: 1279px) {
+  .element__title {
+    max-width: 307.5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .element__title { 
+    max-width: 246px;
+  }
+}
