@@ -109,14 +109,13 @@ class Api {
 const api = 
 new Api(
   // {baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-47/',
-  {baseUrl: 'http://localhost:3001',
+  // {baseUrl: 'http://localhost:3001',
+  {baseUrl: 'http://settler.students.nomoredomains.icu'
   // token: '83fc8ebe-1f08-4a5e-8995-87cf7a67fcf1',
   }
 )
 
 export default api;
-
-// export const BASE_URL = 'http://localhost:3000'
 
   
 

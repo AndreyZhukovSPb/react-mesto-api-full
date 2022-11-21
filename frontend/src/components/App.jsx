@@ -173,14 +173,14 @@ function App() {
 
   function handleConfirmPopupClose () {
     closeAllPopups();
-    history.push('/signin');
+    history.push('/sing-in');
   }
 
   function handleReg (password, email) {
     auth.singUp(password, email)
       .then((data) =>{
         // if(!data.data) {
-        if(!data) {
+        if(!data.data) {
           handleErrorPopup();
           return Promise.reject ('No data');
         } 
