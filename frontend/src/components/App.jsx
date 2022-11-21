@@ -180,7 +180,7 @@ function App() {
     auth.singUp(password, email)
       .then((data) =>{
         // if(!data.data) {
-        if(!data.data) {
+        if(!data._id) {
           handleErrorPopup();
           return Promise.reject ('No data');
         } 
