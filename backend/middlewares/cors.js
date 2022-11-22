@@ -1,6 +1,7 @@
 const { allowedCors, DEFAULT_ALLOWED_METHODS } = require('../utils/constants');
 
 const corsAllower = (req, res, next) => {
+  console.log('cors is working?')
   const requestHeaders = req.headers['access-control-request-headers'];
   const { origin } = req.headers;
   const { method } = req;
