@@ -12,8 +12,6 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const { PORT = 3000, MONGO_URL = 'mongodb://localhost:27017/mestodb', NODE_ENV, JWT_SECRET } = process.env;
 
-console.log(process.env.NODE_ENV); 
-
 const {
   createUser,
   login,

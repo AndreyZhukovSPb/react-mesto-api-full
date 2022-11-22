@@ -19,7 +19,12 @@ _пятый проект написанный в рамках обучения �
 2. nide js
 3. mongoDB
 
-* [Ссылка на проект на GitHub](https://github.com/AndreyZhukovSPb/express-mesto-gha )
+
+IP 158.160.7.236
+Frontend https://pioneer.students.nomoredomains.icu
+Backend https://settler.students.nomoredomains.icu
+
+* [Ссылка на проект на GitHub](https://github.com/AndreyZhukovSPb/react-mesto-api-full.git )
 
 
 
