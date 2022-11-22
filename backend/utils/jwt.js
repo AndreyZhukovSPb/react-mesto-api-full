@@ -1,10 +1,12 @@
+require('dotenv').config();
+const { NODE_ENV, JWT_SECRET } = process.env;
 const jwt = require('jsonwebtoken');
 
-const { SECRET_JWT } = require('./constants');
+const { LOCAL_SECRET_JWT } = require('./constants');
 
 const signToken = (id) => {
   try {
-    const token = jwt.sign({ id }, SECRET_JWT, { expiresIn: '7d' });
+    const token = jwt.sign({ id },  NODE_ENV === 'production' ? JWT_SECRET : LOCAL_SECRET_JWT, { expiresIn: '7d' });
     return token;
   } catch (e) {
     return false;

@@ -1,6 +1,6 @@
 const REGEX = /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_+.~#?&/=]*)$/;
 
-const SECRET_JWT = 'new secret key';
+const LOCAL_SECRET_JWT = 'new secret key';
 
 const allowedCors = [
   'https://praktikum.tk',
@@ -12,7 +12,7 @@ const allowedCors = [
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
 
 module.exports = {
-  SECRET_JWT,
+  LOCAL_SECRET_JWT,
   REGEX,
   allowedCors,
   DEFAULT_ALLOWED_METHODS,
